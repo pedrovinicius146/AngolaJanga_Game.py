@@ -1,0 +1,40 @@
+#conteiner {
+    height: 85vh;
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#btn {
+    height: 50px;
+    width: 200px;
+    
+}
+#h1{
+color: white;
+
+}
+#conteiner2{
+
+
+    
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+#imghome{
+    
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-image: url('OIP.jpg');
+        background-size: cover; /* Faz a imagem cobrir todo o fundo */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Impede que a imagem se repita */
+    
+    
+   
+}

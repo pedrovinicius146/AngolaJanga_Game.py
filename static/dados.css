@@ -1,0 +1,35 @@
+body{
+height: 100vh;
+margin: 0;
+padding: 0;
+display: grid;
+place-items: center;
+background-color: #111;
+color: white;
+}
+table{ 
+    width: 900px; border-collapse: collapse; 
+    
+
+}  th{ text-transform: uppercase; background-color: rgb(10, 248, 10); color: black;
+             border-top: 1px solid #999; border-bottom: 1px ; text-align: center;
+            font-size: 90%; letter-spacing: 0.1em;padding: 10px;
+         } tr{ background-color: #ffffffec; padding: 10px; color: black; text-align: center
+             } .numero{ text-align: right; }
+             button {
+                margin-top: 75px;
+                padding: 10px 20px;
+                background-color: #333; /* Tom mais escuro de preto */
+                color: white;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                transition: background-color 0.3s; /* Adicionando uma transição suave na mudança de cor de fundo */
+                margin-bottom: 20px;
+                
+            }
+            
+            button:hover {
+                background-color: #555; /* Tom mais escuro quando o mouse passa sobre o botão */
+            }
+            

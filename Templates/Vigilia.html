@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vigilia</title>
+  <link rel="stylesheet" href="../static/Vigilia.css">
+</head>
+
+<body>
+
+  <div id="container">
+    <h1 id="h1">Vigilia</h1>
+    <div id="conteiner2">
+    <video src="/static/VID-20240411-WA0048.mp4" autoplay muted loop class="background-video" id="video" width="100"></video></div> <!-- Adicionando o atributo 'controls' -->
+    <h3 id="h3">Na primeira etapa, você será designado para
+      encontrar os guerreiros que atuarão como
+      batedores, observando e vigiando os movimentos
+      das tropas inimigas. Os batedores precisam ser
+      rápidos e habilidosos em se camuflar para passar
+      despercebidos pelos inimigos. Vamos selecionar
+      guerreiros com habilidades de velocidade e
+      camuflagem.</h3>
+ <img src="../static/olho.png" alt="" height="60" width="60">
+
+    <form action="/Vigilia_dados" method="post">
+      <select name="op" id="">
+        <option value=""><strong>Escolha o Select * from combatentes correto</strong></option>
+        <option value="1">(combate1='habilidade com zarabatana' and nv1 > 5 or combate1='finta' and nv1 >= 5) and (combate2='habilidade com zarabatana' and nv2 >= 5 or combate2='capoeira' and nv2 > 5)</option>
+        <option value="2">(combate1='habilidade com lanca' and nv1 > 3 or combate1='resistencia' and nv1 >= 3) and (combate2='habilidade com lanca' and nv2 >= 3 or combate2='resistencia' and nv2 > 3)</option>
+        <option value="3">(combate1='perícia em combate com facão' and nv1 > 5 or combate1='ocultação natural' and nv1 >= 5) and (combate2='perícia em combate com facão' and nv2 >= 5 or combate2='roubo' and nv2 > 5)</option>
+      </select>
+     
+      <button type="submit">Escolher</button>
+    </form>
+    
+
+  </div>
+  <img src="R.jpg" alt=""  >
+</body>
+
+</html>

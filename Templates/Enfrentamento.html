@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vigilia</title>
+  <link rel="stylesheet" href="../static/Vigilia.css">
+</head>
+
+<body>
+
+  <div id="container">
+    <h1 id="h1">Enfretamento</h1>
+    <div id="conteiner2">
+    <video src="/static/VID-20240411-WA0048.mp4" autoplay muted loop class="background-video" id="video" width="100"></video></div> <!-- Adicionando o atributo 'controls' -->
+    <h3 id="h3">Na terceira e última etapa, chegou a hora do
+      confronto direto com os inimigos. Precisaremos de
+      guerreiros fortes e habilidosos no combate corpo a
+      corpo, utilizando lanças e demonstrando muita
+      força.</h3>
+      <img src="../static/sword.png" alt="" height="60" width="60">
+    <form action="/Enfrentamento_dados" method="post">
+      <select name="op3" id="">
+        <option value="">Selecione o comando SQL correto</option>
+        <option value="1">(combate1='tiro com arco' and nv1 > 5 or combate1='rastreamento' and nv1 >= 5) and (combate2='tiro com arco' and nv2 >= 5 or combate2='rastreamento' and nv2 > 5)</option>
+        <option value="2">(combate1='luta corpo a corpo' and nv1 > 5 or combate1='espreitar' and nv1 >= 5) and (combate2='luta corpo a corpo' and nv2 >= 5 or combate2='plantio' and nv2 > 5)</option>
+        <option value="3">(combate1='habilidade com lanca' and nv1 > 3 or combate1='resistencia' and nv1 >= 3) and (combate2='habilidade com lanca' and nv2 >= 3 or combate2='resistencia' and nv2 > 3)</option>
+      </select>
+
+      <button type="submit">Escolher</button>
+    </form>
+    
+
+  </div>
+  <img src="R.jpg" alt=""  >
+</body>
+
+</html>

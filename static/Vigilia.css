@@ -1,0 +1,74 @@
+/* Vigilia.css */
+body {
+    margin: 0;
+    padding: 0;
+  
+    display: grid;
+    place-items: center;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif, ; 
+    height: 100vh;
+}
+#container{
+    display: grid;
+    place-items: center;
+    background-color: #c4c4c4;
+  border-radius: 15px;
+  min-width: 450px;
+  width: 83%;
+}
+form{
+    display: grid;
+    place-items: center;
+}
+
+select {
+    width: 300px;
+    height: 35px;
+    margin-top: 15px;
+   margin-right: 730px;
+}
+
+button {
+    margin-top: 75px;
+    padding: 10px 20px;
+    background-color: #333; /* Tom mais escuro de preto */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Adicionando uma transição suave na mudança de cor de fundo */
+    margin-bottom: 20px;
+    
+}
+
+button:hover {
+    background-color: #555; /* Tom mais escuro quando o mouse passa sobre o botão */
+}
+
+#h1 {
+    color: black;
+    text-align: center;
+     /* Ajustando o espaçamento superior */
+}
+#h3 {
+    color: black;
+    text-align: center  ;
+    max-width: 650px;
+    width: 80%;
+    font-size: 18px;
+     /* Ajustando o espaçamento superior */
+     
+}
+#video{
+    padding: 5px;
+height: px;
+width: 400px;
+border: 3px solid #555;
+
+
+
+}
+option{
+    width: 120px;
+}

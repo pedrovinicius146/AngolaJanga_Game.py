@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposta da Pesquisa</title>
+    <link rel="stylesheet" href="../static/dados.css">
+</head>
+<body>
+    <h1>Resposta da Pesquisa</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Quilombo</th>
+                <th>Idade</th>
+                <th>Bantu</th>
+                <th>Combate 1</th>
+                <th>Nível 1</th>
+                <th>Combate 2</th>
+                <th>Nível 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for linha in resposta %}
+            <tr>
+                <td>{{ linha['_id'] }}</td>
+                <td>{{ linha['nome'] }}</td>
+                <td>{{ linha['quilombo'] }}</td>
+                <td>{{ linha['idade'] }}</td>
+                <td>{{ linha['bantu'] }}</td>
+                <td>{{ linha['comb1'] }}</td>
+                <td>{{ linha['nv1'] }}</td>
+                <td>{{ linha['comb2'] }}</td>
+                <td>{{ linha['nv2'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <button type="submit" onclick="window.location.href='/Enfrentamento'">Próxima Fase</button>
+</body>
+</html>

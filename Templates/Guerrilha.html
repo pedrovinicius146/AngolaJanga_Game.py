@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vigilia</title>
+  <link rel="stylesheet" href="../static/Vigilia.css">
+</head>
+
+<body>
+
+  <div id="container">
+    <h1 id="h1">Guerrilha</h1>
+        <div id="conteiner2">
+    <video src="/static/VID-20240411-WA0048.mp4" autoplay muted loop class="background-video" id="video" width="100"></video></div> <!-- Adicionando o atributo 'controls' -->
+    <h3 id="h3">Na segunda etapa, a estratégia é usar táticas de
+        guerrilha para atacar os inimigos de forma
+        surpreendente e eficaz. Precisaremos de guerreiros
+        que sejam bons em se camuflar e em usar arcos e
+        flechas para atacar à distância.</h3>
+        <img src="../static/grama.png" alt="" height="60" width="60">
+    <form action="/Guerrilha_dados" method="post">
+        <select name="op2" id="">       
+         <option value="">Selecione o comando SQL correto</option>
+        <option value="1"> (combate1='habilidade com arco e flecha' and nv1 > 5 or combate1='camuflagem' and nv1 >= 5) and (combate2='habilidade com arco e flecha' and nv2 >= 5 or combate2='camuflagem' and nv2 > 5)</option>
+        <option value="2">(combate1='proficiência com machado' and nv1 > 5 or combate1='observação' and nv1 >= 5) and (combate2='proficiência com machado' and nv2 >= 5 or combate2='observação silenciosa' and nv2 > 5)</option>
+        <option value="3">(combate1='domínio de lança' and nv1 > 5 or combate1='emboscada' and nv1 >= 5) and (combate2='domínio de lança' and nv2 >= 5 or combate2='emboscada' and nv2 > 5)</option>
+      </select>
+
+      <button type="submit">Escolher</button>
+    </form>
+    
+
+  </div>
+  <img src="R.jpg" alt=""  >
+</body>
+
+</html>
