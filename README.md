@@ -6,3 +6,5 @@ Este projeto é um aplicativo educacional desenvolvido em Flask com MongoDB, que
 
 O projeto é conectado a um banco de dados recheado de personagens,cujo tem varios atributos de habilidades para todos os tipos de situação.
 Seu trabalho é acertar a querry correta de acordo com necessidade proposta e de acordo com as habilidades dos personagems
+
+ft: Jonas alvesz
